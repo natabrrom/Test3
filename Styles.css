@@ -1,0 +1,127 @@
+body{ 
+    background-color: aliceblue;
+}
+nav ul {
+    list-style: none;
+    padding: 10px 0px;
+    background-color: black;
+}
+
+nav ul li {
+    display: inline-block
+}
+
+nav ul li a {
+    color:white;
+    text-decoration: none;
+    padding: 20px 10px;
+}
+nav ul a:hover {
+    color: grey;
+}
+
+header {
+    background-image: url(Meditation-pic.jpg);
+    height: 400px;
+    width: 100%;
+    display: flex;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header h1 {
+    text-align: center;
+    width: fit-content;
+    margin: auto;
+    color:aliceblue; 
+}
+
+.Right {
+    text-align: right;
+    float: right;
+}
+main {
+    text-align: left;
+}
+#Grid {
+    display: grid;
+    max-width: fit-content;
+    grid-template-columns: 70% 30%;
+    grid-template-columns: auto 1fr auto;
+}
+.left {
+    text-align: left;
+    float: left;
+    max-width: 50%;
+    text-align: justify;
+}
+#MoreInfo {
+    background-color: rgb(221, 221, 221);
+    text-align: center;
+    float: right;
+    max-width: 25%;
+    margin-right: 60px;
+    padding: 10px;
+    border-radius: 30px;
+}
+main aside nav button {
+    background-color: aliceblue;
+    margin: 5px;
+    padding: 5px;
+}
+main aside nav button:hover {
+    color: gray;
+}
+footer {
+    background-color: black;
+    text-align: left;
+    position: fixed;
+    bottom: 0;
+    height: 20px;
+    width: 100%;
+    color: aliceblue;
+    padding: 10px;
+}
+.line {
+    height: 2px;
+    background: black;
+    margin: 20px;
+    opacity: 50%;
+}
+article ol {
+    text-align: left;
+    float: right;
+    width: 40%;
+    position: relative;
+    background-color: rgb(221, 221, 221);
+    padding: 30px;
+    margin: 30px;
+    padding-left: 50px;
+    font-family: Pacifico;
+    font-size: 20px;
+    border-radius: 30px;
+}
+table {
+    width: 45%;
+    border-width: 20px;
+}
+.TableHead {
+    background-image: url(rock.jpg);
+    height: 30px;
+    color: rgba(0, 0, 0,);
+    margin: 10px;
+    padding: 5px;
+    border-radius: 25px;
+    width: 50%;
+    font-size: larger;
+}
+.TableBody {
+    height: 30px;
+    color: rgb(0, 0, 0);
+    margin: 10px;
+    padding: 5px;
+    border-radius: 25px;
+    width: 50%; 
+    background-color: rgba(221, 221, 221);
+}
+
